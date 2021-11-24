@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ataulfo</string>
+    <string name="Información">information about the study center</string>
+    <string name="ESO">GCSE</string>
+    <string name="Bachillerato">A-levels</string>
+    <string name="FormacionProfesional">Vocational Training</string>
+    <string name="DireccionCentro">Address:</string>
+    <string name="EscuelaSecundariaCAstro">Secondary school in Castro Urdiales</string>
+    <string name="Localidad">Location:</string>
+    <string name="Provincia">Province:</string>
+    <string name="SitioWeb">Website</string>
+    <string name="ComoLlegar">How to get</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".informacion" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgLogo2"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/cropped_nuevaimagen_2" />
+
+            <ImageView
+                android:id="@+id/imgAtaulfoCentro"
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:background="@drawable/style_border_editext"
+                android:backgroundTint="@color/Rojo"
+                app:srcCompat="@drawable/ies_ataulfo_argenta" />
+
+            <TextView
+                android:id="@+id/txtNombreCentro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/audiowide"
+                android:foregroundGravity="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="IES Ataulfo Argenta"
+                android:textColor="@color/Rojo"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtSubtexto"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:gravity="center_horizontal"
+                android:text="@string/EscuelaSecundariaCAstro"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtDirec"
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent"
+
+                    android:fontFamily="@font/audiowide"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/DireccionCentro"
+                    android:textColor="@color/Rojo"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtDireccionCompleta"
+                    android:layout_width="265dp"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/audiowide"
+                    android:text="P.º Menéndez Pelayo, 4, 39700 Castro Urdiales, Cantabria"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtTelefono"
+                    android:layout_width="99dp"
+                    android:layout_height="43dp"
+                    android:fontFamily="@font/audiowide"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:text="Tlf:"
+                    android:textColor="@color/Rojo"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtnumero"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/audiowide"
+                    android:gravity="center_vertical"
+                    android:text=" 942 86 06 37"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtLocalidad"
+                    android:layout_width="99dp"
+                    android:layout_height="43dp"
+                    android:fontFamily="@font/audiowide"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/Localidad"
+                    android:textColor="@color/Rojo"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtLocalidadNombre"
+                    android:layout_width="265dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/audiowide"
+                    android:text="Castro Urdiales"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtProvincia"
+                    android:layout_width="99dp"
+                    android:layout_height="43dp"
+                    android:fontFamily="@font/audiowide"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:text="@string/Provincia"
+                    android:textColor="@color/Rojo"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtProvinciaNombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/audiowide"
+                    android:text="Cantabria"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnWebsite"
+                    android:layout_width="211dp"
+                    android:layout_height="151dp"
+                    android:text="@string/SitioWeb" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="211dp"
+                    android:layout_height="151dp"
+                    android:layout_weight="1"
+                    android:onClick="map"
+                    android:text="@string/ComoLlegar" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

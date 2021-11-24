@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    tools:context=".inicio">
+
+    <ImageView
+        android:id="@+id/imgLogo2"
+        android:layout_width="248dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="82dp"
+        app:srcCompat="@drawable/cropped_nuevaimagen_2" />
+
+    <Button
+        android:id="@+id/btnInformacion"
+        android:layout_width="248dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/imgLogo2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="75dp"
+        android:background="@drawable/style_border_editext"
+        android:backgroundTint="@color/Rojo"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="Informacion"
+        android:text="@string/Información" />
+
+    <Button
+        android:id="@+id/btnESO"
+        android:layout_width="248dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/btnInformacion"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="75dp"
+        android:background="@drawable/style_border_editext"
+        android:backgroundTint="@color/Rojo"
+        android:onClick="eso"
+        android:text="@string/ESO" />
+
+    <Button
+        android:id="@+id/btnBachiller"
+        android:layout_width="248dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/btnESO"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="75dp"
+        android:background="@drawable/style_border_editext"
+        android:backgroundTint="@color/Rojo"
+        android:onClick="bachiller"
+        android:text="@string/Bachillerato" />
+
+    <Button
+        android:id="@+id/btnFP"
+        android:layout_width="248dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/btnBachiller"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="174dp"
+        android:background="@drawable/style_border_editext"
+        android:backgroundTint="@color/Rojo"
+        android:onClick="fp"
+        android:text="@string/FormacionProfesional" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ataulfo</string>
+    <string name="Información">información del centro de estudios</string>
+    <string name="ESO">ESO</string>
+    <string name="Bachillerato">Bachillerato</string>
+    <string name="FormacionProfesional">Formación profesional</string>
+    <string name="DireccionCentro">Dirección:</string>
+    <string name="EscuelaSecundariaCAstro">Escuela secundaria en Castro Urdiales</string>
+    <string name="Localidad">Localidad:</string>
+    <string name="Provincia">Provincia:</string>
+    <string name="SitioWeb">Sitio web</string>
+    <string name="ComoLlegar">Cómo llegar</string>
+</resources>
