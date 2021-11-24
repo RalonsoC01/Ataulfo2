@@ -161,15 +161,23 @@
 
                 <Button
                     android:id="@+id/btnWebsite"
-                    android:layout_width="211dp"
-                    android:layout_height="151dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="75dp"
+                    android:background="@drawable/style_border_editext"
+                    android:backgroundTint="@color/Rojo"
                     android:text="@string/SitioWeb" />
 
                 <Button
                     android:id="@+id/button3"
-                    android:layout_width="211dp"
-                    android:layout_height="151dp"
-                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/style_border_editext"
+                    android:backgroundTint="@color/Rojo"
                     android:onClick="map"
                     android:text="@string/ComoLlegar" />
             </LinearLayout>
