@@ -100,6 +100,7 @@
                     android:layout_weight="1"
                     android:fontFamily="@font/audiowide"
                     android:gravity="center_vertical"
+                    android:onClick="onClickLlamada"
                     android:text=" 942 86 06 37"
                     android:textColor="#000000" />
             </LinearLayout>

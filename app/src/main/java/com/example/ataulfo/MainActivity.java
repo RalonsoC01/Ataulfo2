@@ -2,12 +2,14 @@ package com.example.ataulfo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
         new Handler() .postDelayed (new Runnable() {
             @Override
             public void run(){
+                Context context = getApplicationContext();
+                CharSequence text = "Bienvenido";
+                int duration = Toast.LENGTH_SHORT;
+
+                Toast toast = Toast.makeText(context, text, duration);
+                toast.show();
                 Intent intent=new Intent (MainActivity.this,inicio.class);
                 startActivity(intent);
                 finish();
