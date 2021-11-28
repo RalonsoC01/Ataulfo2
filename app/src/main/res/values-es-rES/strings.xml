@@ -11,4 +11,15 @@
     <string name="Provincia">Provincia:</string>
     <string name="SitioWeb">Sitio web</string>
     <string name="ComoLlegar">Cómo llegar</string>
+    <string name="numerotlf">" 942 86 06 37"</string>
+    <string name="curriculum">Currículo</string>
+    <string name="areasomateriascomunes">Áreas o materias comunes</string>
+    <string name="horas">Horas</string>
+    <string name="MasInfromacion"><u>Mas información...</u></string>
+    <string name="primeroeso">1º ESO</string>
+    <string name="segundoeso">2º ESO</string>
+    <string name="terceroeso">3º ESO</string>
+    <string name="cuartoeso">4º ESO</string>
+    <string name="primerobachiller">1º Bachiller</string>
+    <string name="segundobachiller">2º Bachiller</string>
 </resources>

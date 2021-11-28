@@ -11,4 +11,15 @@
     <string name="SitioWeb">Website</string>
     <string name="ComoLlegar">How to get</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="numerotlf"><u>942 86 06 37</u></string>
+    <string name="curriculum">Classroom curriculum</string>
+    <string name="areasomateriascomunes">Common subjects</string>
+    <string name="horas">Hours</string>
+    <string name="MasInfromacion">More information...</string>
+    <string name="primeroeso">1º GCSE</string>
+    <string name="segundoeso">2º GCSE</string>
+    <string name="terceroeso">3º GCSE</string>
+    <string name="cuartoeso">4º GCSE</string>
+    <string name="primerobachiller">1º A-level</string>
+    <string name="segundobachiller">2º A-level</string>
 </resources>
