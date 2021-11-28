@@ -22,4 +22,8 @@
     <string name="cuartoeso">4º ESO</string>
     <string name="primerobachiller">1º Bachiller</string>
     <string name="segundobachiller">2º Bachiller</string>
+    <string name="cocina">Cocina y restauración</string>
+    <string name="smr">SMR: Sistemas microinformáticos y redes</string>
+    <string name="dam">DAM: Desarrollo de aplicaciones multiplataforma</string>
+    <string name="daw">DAW: Desarrollo de aplicaciones web</string>
 </resources>

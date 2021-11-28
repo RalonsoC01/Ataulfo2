@@ -22,4 +22,8 @@
     <string name="cuartoeso">4º GCSE</string>
     <string name="primerobachiller">1º A-level</string>
     <string name="segundobachiller">2º A-level</string>
+    <string name="cocina">Kitchen and catering</string>
+    <string name="smr">MSN : Microcomputer systems and networks</string>
+    <string name="dam">CAD: Cross-platform application development</string>
+    <string name="daw">WAD: Web applications development</string>
 </resources>
